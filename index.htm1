@@ -1,112 +1,44 @@
-<!DOCTYPE html><html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MTSX STORE</title>
+    <title>MTSX-LOJA</title>
     <style>
         body {
-            background-color: #111;
-            color: #fff;
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-        }
-        header {
-            text-align: center;
-            padding: 20px;
-            font-size: 2em;
-            background-color: #222;
-        }
-        section {
-            padding: 20px;
-        }
-        h2 {
-            margin-top: 40px;
-            margin-bottom: 20px;
-            font-size: 1.5em;
-            border-bottom: 2px solid #555;
-            padding-bottom: 5px;
-        }
-        .product-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-        .product-card {
-            background-color: #222;
-            padding: 15px;
-            border-radius: 10px;
+            background-color: #f5f5f5;
+            font-family: 'Arial', sans-serif;
             text-align: center;
         }
-        .product-card img {
-            max-width: 100%;
-            border-radius: 8px;
+        .container {
+            margin-top: 100px;
         }
-        .price {
-            margin: 10px 0;
-            font-size: 1.2em;
-            color: #0f0;
+        h1 {
+            font-size: 48px;
+            color: #333;
         }
-        .old-price {
-            text-decoration: line-through;
-            color: #f00;
-            font-size: 0.9em;
-        }
-        .discount {
-            font-size: 0.8em;
-            color: #ff0;
-        }
-        .buy-button {
-            background-color: #0f0;
-            color: #000;
-            padding: 10px 20px;
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background-color: #4CAF50;
             border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-weight: bold;
-            margin-top: 10px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s;
         }
-        .buy-button:hover {
-            background-color: #0c0;
+        .button:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
-<body><header>MTSX STORE</header><section>
-    <h2>Contas Baratas</h2>
-    <div class="product-grid">
-        <div class="product-card">
-            <img src="https://via.placeholder.com/250x150.png?text=Conta+Level+2550" alt="Produto 1">
-            <p>Level 2550 - GH + Itens Aleatórios</p>
-            <p class="old-price">R$ 6,00</p>
-            <p class="price">R$ 4,00 <span class="discount">33% OFF</span></p>
-            <button class="buy-button">Comprar Agora</button>
-        </div><div class="product-card">
-        <img src="https://via.placeholder.com/250x150.png?text=GH+SG+Fruta+Mítica" alt="Produto 2">
-        <p>GH - SG (Chance de Fruta Mítica)</p>
-        <p class="old-price">R$ 8,00</p>
-        <p class="price">R$ 4,00 <span class="discount">50% OFF</span></p>
-        <button class="buy-button">Comprar Agora</button>
+<body>
+    <div class="container">
+        <h1>MTSX-LOJA</h1>
+        <a href="#produtos" class="button">Ver Produtos</a>
     </div>
-</div>
-
-<h2>Frutas Míticas no Inventário</h2>
-<div class="product-grid">
-    <div class="product-card">
-        <img src="https://via.placeholder.com/250x150.png?text=Fruta+Mítica" alt="Produto 3">
-        <p>CDK-GH-1 Fruta Mítica Aleatória</p>
-        <p class="old-price">R$ 12,00</p>
-        <p class="price">R$ 9,00 <span class="discount">25% OFF</span></p>
-        <button class="buy-button">Comprar Agora</button>
-    </div>
-
-    <div class="product-card">
-        <img src="https://via.placeholder.com/250x150.png?text=Dough+e+T-Rex" alt="Produto 4">
-        <p>GDH - Dough e T-Rex no Bau</p>
-        <p class="old-price">R$ 18,00</p>
-        <p class="price">R$ 12,00 <span class="discount">33% OFF</span></p>
-        <button class="buy-button">Comprar Agora</button>
-    </div>
-</div>
-
-</section></body>
+</body>
 </html>
